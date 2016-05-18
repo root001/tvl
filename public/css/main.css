@@ -1,0 +1,37 @@
+body{
+    font-family: 'Open Sans';
+}
+/*
+.bg-img{
+    background-image: url('http://localhost/tvl/public/img/bg-main.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    min-height: 570px;
+    max-height: 600px;
+}
+*/
+.bg-img{
+    content: "";
+    position: relative;
+    background: url(http://localhost/tvl/public/img/bg-main.jpg) no-repeat center;
+    opacity: 1;
+    background-size: cover;
+    min-height: 570px;
+    max-height: 600px;
+}
+
+.main-body{
+    margin-top: 51px;
+}
+
+
+.page-center{
+    padding-top: 280px;
+}
+
+.footer{
+    padding: 15px 0;
+    background-color: #222;
+    color: #fff;
+    font-size: 12px
+}

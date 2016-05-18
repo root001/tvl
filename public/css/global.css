@@ -1,0 +1,174 @@
+/*
+ * Theme v1.0.0
+ * Copyright 2015-2016 Theemon.com
+ */
+/*
+ Table Of Contents
+ 1) General Text Formatting and Typography
+ 2) Site Wide Content
+ 3) Header Section
+ 4) Footer Section
+ ===============================================*/
+/*
+ 1) General Text Formatting and Typography
+ ----------------------------------------*/
+
+p {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #94949d;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul, ol {
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+a {
+	outline: none !important;
+}
+input, button, textarea, select, checkbox, radio {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0;
+}
+/*
+ 2) Site Wide Content
+ ----------------------------------------*/
+#content {
+	width: 100%;
+	position: relative;
+}
+#wrapper {
+	position: relative;
+	width: 100%;
+}
+/*
+body {
+	font-size: 12px;
+	line-height: 1.2;
+	color: #94949d;
+	font-weight: 400;
+	background: #fdfdfd;
+	font-family: 'Lato', sans-serif;   
+	-webkit-font-smoothing: antialiased;
+} -*/
+body.homepage, body.homepage-3 {
+	font-family: 'Lato', sans-serif;
+}
+.more-btn, .consult-btn {
+	color: #ee3135;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+	position: relative;
+}
+.more-btn:hover, .homepage .more-btn:active, .more-btn:focus {
+	color: #ee3135;
+	text-decoration: none;
+	outline: none;
+}
+
+.more-btn {
+	color: #3f3d31;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: block;
+}
+
+.fa-phone-square {
+	color: #ffffff;
+	font-size: 16px;
+	position: relative;
+	left: 42px;
+}
+
+/*
+ 3.13)Global Animations Style
+ ----------------------------------------*/
+.anim-section {
+	position: relative;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	-moz-transform: translateY(20px);
+	-webkit-transform: translateY(20px);
+	-o-transform: translateY(20px);
+	-ms-transform: translateY(20px);
+	transform: translateY(20px);
+	visibility: visible;
+	opacity: 0
+}
+.anim-section.animate {
+	-moz-transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+	-o-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	visibility: visible;
+	opacity: 1
+}
+input:focus, textarea:focus, .btn:focus, .zoom img, .img-thumb img, .btn, .btn:hover, .media-listing li a:hover, .media-listing li a,a, a:hover *:hover {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.img-thumb {
+	display: block;
+	overflow: hidden;
+}
+
+.img-thumb:hover img, .img-thumb:focus img, .zoom:hover img {
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+/*
+ 3) Header Section
+ ----------------------------------------*/
+
+/*media section csss*/
+.media-listing {
+	list-style: none;
+}
+.media-listing li {
+	float: left;
+	margin-right: 9px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.media-listing li a {
+	font-size: 18px;
+	color: #565551;
+}
+.media-listing li a:hover {
+	text-decoration: none;
+	color: #e8eef1;
+}
+
+
+/*Homepage-one global css end here*/
+
