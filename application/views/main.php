@@ -39,7 +39,7 @@
     
     <body>
         <!-- navbar -->
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
                     <!-- Button for smallest screens -->
@@ -105,10 +105,11 @@
         </div> 
         <!-- /.navbar -->
         
+		<?= isset($pageContent) ? $pageContent : "" ?>
         
         <div class="container-fluid main-body">
             <div class="row" id="pageContent">
-                <?= isset($pageContent) ? $pageContent : "" ?>
+                
             </div>
         </div>
         

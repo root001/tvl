@@ -1,5 +1,5 @@
-<div class="bg-img">
-    <div class="page-center text-center col-sm-12">
+<header class="bg-img">
+    <div class="page-center">
         <div class="form-group-lg">
             <div class="col-sm-1"></div>
             <div class="col-sm-3">
@@ -33,4 +33,4 @@
             <div class="col-sm-1"></div>
         </div>
     </div>
-</div>
+</header>
