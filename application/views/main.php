@@ -55,7 +55,7 @@
                 <div class="navbar-collapse collapse" id="pageMenu">
                     <ul class="nav navbar-nav navbar-right" id="pageMenuUL">
                         <li>
-                            <a href="<?=base_url()?>">Blog</a>
+                            <a href="<?=base_url('blog')?>">Blog</a>
                         </li>
                         <li class="<?= isset($pageTitle) && $pageTitle === 'FAQ' ? 'active' : '' ?>">
                             <a href="<?=base_url('about')?>">FAQ</a>

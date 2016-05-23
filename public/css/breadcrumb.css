@@ -1,0 +1,271 @@
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 670px) {
+	.breadcrumb-title h1 { font-size: 30px; }
+
+    .widget-cat-projects ul li,
+    .widget-recent-projects ul li,
+    .widget-flickr .flickr-feed li,
+    .widget-recent-products-style-2 ul li {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+	#home-section,
+    .parallax-section,
+    .breadcrumb-section,
+    body.background-image-style {
+        background-position: 50% 50% !important;
+        background-attachment: scroll !important;
+    }
+}
+
+/* 10.4.8 Light
+-------------------------------------------------------------------------- */
+.breadcrumb-light { border-bottom: 1px solid #e5e5e5; }
+.breadcrumb-light .breadcrumb-head::after { background-color: #e74848; }
+
+.breadcrumb-light .main-section::after {
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+.breadcrumb-light .breadcrumb-title h1 { color: #232323; }
+.breadcrumb-light .breadcrumb-sub-title h5 { color: #666666; }
+
+.breadcrumb-light .breadcrumb a:hover,
+.breadcrumb-light .breadcrumb > .active,
+.breadcrumb-light .breadcrumb > li+li:before {
+    color: #232323;
+}
+
+/* 10.4 Breadcrumb Section
+-------------------------------------------------------------------------- */
+/* 10.4.1 Wrapper
+-------------------------------------------------------------------------- */
+.breadcrumb-section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+
+    background-color: #232323;
+    background-repeat: repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+.breadcrumb-section .section-container { padding: 65px 0 40px; }
+.breadcrumb-section .main-section::after {
+    top: 0;
+    left: 0;
+    z-index: 0;
+    content: '';
+    width: 100%;
+    height: 56%;
+    opacity: 0.65;
+    position: absolute;
+    background-color: #000000;
+}
+
+/* 10.4.2 Head
+-------------------------------------------------------------------------- */
+.breadcrumb-head {
+    line-height: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 10.4.3 Title
+-------------------------------------------------------------------------- */
+.breadcrumb-title {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+.breadcrumb-title h1 {
+    color: #ffffff;
+    line-height: 1;
+    font-size: 40px;
+}
+
+/* 10.4.4 Sub Title
+-------------------------------------------------------------------------- */
+.breadcrumb-sub-title {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.breadcrumb-sub-title h5 {
+    color: #e74848;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* 10.4.5 Breadcrumb
+-------------------------------------------------------------------------- */
+.breadcrumb {
+    padding: 0;
+    overflow: hidden;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+.breadcrumb a:hover,
+.breadcrumb > .active,
+.breadcrumb > li+li:before {
+    color: #ffffff;
+}
+
+/* 10.4.6 Variations
+-------------------------------------------------------------------------- */
+/* 10.4.6.1 Style 1
+-------------------------------------------------------------------------- */
+.breadcrumb-style-1 .breadcrumb { margin-bottom: 22px; }
+
+/* 10.4.6.2 Style 2
+-------------------------------------------------------------------------- */
+.breadcrumb-style-2 .breadcrumb-head {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.breadcrumb-style-2 .breadcrumb-title { margin-bottom: 0; }
+
+.breadcrumb-style-2 .breadcrumb {
+    float: right;
+    padding-top: 20px;
+}
+
+/* 10.4.6.3 Style 3
+-------------------------------------------------------------------------- */
+.breadcrumb-style-3 { text-align: center; }
+
+.breadcrumb-style-3 .breadcrumb,
+.breadcrumb-style-3 .breadcrumb-head {
+    width: 100%;
+    display: block;
+	z-index: 1;
+}
+
+.breadcrumb-style-3 .breadcrumb-head {
+    line-height: 0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 13px;
+}
+.breadcrumb-style-3 .breadcrumb-head::after {
+    bottom: 0;
+    left: 50%;
+    width: 30px;
+    height: 3px;
+    content: '';
+    margin-left: -15px;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.breadcrumb-style-3 .breadcrumb {
+    padding-top: 20px;
+    margin-bottom: 23px;
+}
+
+/* 10.4.6.4 Style 4
+-------------------------------------------------------------------------- */
+.breadcrumb-style-4 .breadcrumb-sub-title { display: none; }
+.breadcrumb-style-4 .breadcrumb-title { margin-bottom: 0; }
+.breadcrumb-style-4 .breadcrumb { margin-bottom: 27px; }
+
+/* 10.4.6.5 Style 5
+-------------------------------------------------------------------------- */
+.breadcrumb-style-5 .breadcrumb-sub-title { display: none; }
+.breadcrumb-style-5 .breadcrumb-title { margin-bottom: 0; }
+.breadcrumb-style-5 .breadcrumb-head {
+    float: left;
+    margin-bottom: 15px;
+}
+.breadcrumb-style-5 .breadcrumb {
+    float: right;
+    padding-top: 7px;
+}
+
+/* 10.4.6.6 Style 6
+-------------------------------------------------------------------------- */
+.breadcrumb-style-6 { text-align: center; }
+.breadcrumb-style-6 .breadcrumb-sub-title { display: none; }
+
+.breadcrumb-style-6 .breadcrumb,
+.breadcrumb-style-6 .breadcrumb-head {
+    width: 100%;
+    display: block;
+}
+
+.breadcrumb-style-6 .breadcrumb-head {
+    line-height: 0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 13px;
+}
+.breadcrumb-style-6 .breadcrumb-head::after {
+    bottom: 0;
+    left: 50%;
+    width: 30px;
+    height: 3px;
+    content: '';
+    margin-left: -15px;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.breadcrumb-style-6 .breadcrumb {
+    padding-top: 20px;
+    margin-bottom: 23px;
+}
+
+/* 10.4.7 Grey
+-------------------------------------------------------------------------- */
+.breadcrumb-grey { border-bottom: 1px solid #e5e5e5; }
+.breadcrumb-grey .breadcrumb-head::after { background-color: #e74848; }
+
+.breadcrumb-grey .main-section::after {
+    opacity: 1;
+    background-color: #f6f6f6;
+}
+
+.breadcrumb-grey .breadcrumb-title h1 { color: #232323; }
+.breadcrumb-grey .breadcrumb-sub-title h5 { color: #666666; }
+
+.breadcrumb-grey .breadcrumb a:hover,
+.breadcrumb-grey .breadcrumb > .active,
+.breadcrumb-grey .breadcrumb > li+li:before {
+    color: #232323;
+}
+
+/* 10.4.8 Light
+-------------------------------------------------------------------------- */
+.breadcrumb-light { border-bottom: 1px solid #e5e5e5; }
+.breadcrumb-light .breadcrumb-head::after { background-color: #e74848; }
+
+.breadcrumb-light .main-section::after {
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+.breadcrumb-light .breadcrumb-title h1 { color: #232323; }
+.breadcrumb-light .breadcrumb-sub-title h5 { color: #666666; }
+
+.breadcrumb-light .breadcrumb a:hover,
+.breadcrumb-light .breadcrumb > .active,
+.breadcrumb-light .breadcrumb > li+li:before {
+    color: #232323;
+}
+	

@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit("");
 
 
-class Blog extends CI_Controller{
+class About extends CI_Controller{
     public function __construct() {
         parent::__construct();
     }
@@ -11,9 +11,9 @@ class Blog extends CI_Controller{
     
     
     public function index(){
-        $data['pageTitle'] = "Our Blog";
+        $data['pageTitle'] = "About Us";
         
-        $data['pageContent'] = $this->load->view('blogs/blog', '', TRUE);
+        $data['pageContent'] = $this->load->view('aboutus', '', TRUE);
         
         $this->load->view('main', $data);
     }

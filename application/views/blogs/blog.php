@@ -1,62 +1,67 @@
 <?php
 defined('BASEPATH') OR exit('');
 ?>
-<!-- Header Background Parallax Image -->
-<div id="service_bg">
-    <div class="head-title">
-        <h2>Our Blog</h2>                
-    </div>  
-</div>
-<!-- End Header Background Parallax Image -->        
+        <!-- Bootstrap -->
+        <link href="<?=base_url()?>public/css/global.css" rel="stylesheet">
+        <link href="<?=base_url()?>public/css/blogstyle.css" rel="stylesheet">
+        <link href="<?=base_url()?>public/css/breadcrumb.css" rel="stylesheet">
 
-<!-- Site Wrapper -->
-<div class="site-wrapper padding-bottom">
+<body>
+            <!-- =========================================
+            Breadcrumb Section
+            ========================================== -->
+            <!-- breadcrumb-section -->
+            <div class="breadcrumb-section breadcrumb-style-3" style="background-image: url('<?=base_url()?>public/img/breadcrumb/blog-breadcrumb-bg.jpg')!important;">
 
-    <!-- Blog -->
-    <div class="container">
-        <div class="row">
+                <!-- main-section -->
+                <div class="main-section">
+                    <!-- section-container -->
+                    <div class="section-container">
 
-            <div id="grid-blog" class="cbp-l-grid-blog">
-                <ul>
-                    <?php if ($all_posts): ?>
-                        <?php foreach ($all_posts as $get): ?>
-                            <!-- Blog Item -->
-                            <li class="cbp-item ideas motion">
-                                <?php $post_title = url_title($get['title'], "-", TRUE); ?>
-                                <?php $blog_link = base_url()."blog/view/".$get['id']."/".$post_title ?>
-                                <a href="<?=$blog_link?>" class="cbp-caption">
-                                    <!-- Blog Image -->
-                                    <div class="cbp-caption-defaultWrap">
-                                        <?php $image = empty($get['default_image']) ? "download/default.jpg" : $get['default_image'] ?>
-                                        <img src="<?= base_url($image) ?>" class="img-responsive" alt=<?= $get['title'] ?> />                 
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <div class="cbp-l-caption-text">View Blog Post </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <!-- Blog Information -->
-                                <div class="text-center">
-                                    <a href="<?= $blog_link ?>" class="cbp-l-grid-blog-title"><?= ucwords($get['title']); ?></a>
-                                    <div class="cbp-l-grid-blog-date"><?= date('jS M, Y', strtotime($get['date_created'])); ?></div>
-                                    <div class="cbp-l-grid-blog-split">|</div>
-                                    <a href="#" class="cbp-l-grid-blog-comments">
-                                    <?=$get['tot_comments'] + $get['tot_replies']?> comments
-                                    </a>
-                                </div>
-                                <div class="cbp-l-grid-blog-desc"><?= word_limiter($get['body'], 20); ?></div>                            
-                            <?php endforeach; ?> 
-                        <?php else: ?>
-                        No Posts Found
-                    <?php endif; ?>
-                </ul>                                                
-            </div>                                                   
 
-        </div><!-- /row -->    
-    </div><!-- /container -->
-    <!-- End Blog -->
-</div><!-- /site-wrapper -->
-<!-- End Site Wrapper -->
+                        <!-- container -->
+                        <div class="container">
+                            <!-- row -->
+                            <div class="row">
+
+
+                                <!-- col-md-12 -->
+                                <div class="col-md-12">
+
+
+                                    <!-- breadcrumb-head -->
+                                    <div class="breadcrumb-head">
+
+                                        <!-- breadcrumb-sub-title -->
+                                        <div class="breadcrumb-sub-title">
+                                            <h5>Best News</h5>
+                                        </div><!-- /breadcrumb-sub-title -->
+
+                                        <!-- breadcrumb-title -->
+                                        <div class="breadcrumb-title">
+                                            <h1>our blog</h1>
+                                        </div><!-- /breadcrumb-title -->
+
+                                    </div><!-- /breadcrumb-head -->
+
+
+                                    <!-- breadcrumb -->
+                                    <ol class="breadcrumb">
+                                        <li><a href="index-2.html" title="Home">Home</a></li>
+                                        <li class="active">blog</li>
+                                    </ol><!-- /breadcrumb -->
+
+
+                                </div><!-- /col-md-12 -->
+
+
+                            </div><!-- /row -->
+                        </div><!-- /container -->
+
+
+                    </div><!-- /section-container -->
+                </div><!-- /main-section -->
+
+            </div><!-- /breadcrumb-section -->
+
+    

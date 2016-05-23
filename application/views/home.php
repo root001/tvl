@@ -27,7 +27,7 @@
             <br class="visible-sm visible-xs">
             
             <div class="form-group col-sm-1">
-                <button class="btn btn-success btn-lg">GO</button>
+                <button class="btn btn-success btn-lg"><a href = "<?=base_url('project')?>">GO</a></button>
             </div>
 
             <div class="col-sm-1"></div>
