@@ -1212,3 +1212,34 @@ color:#2b2a2f;
 	min-height: 150px;
 	background: url(AjaxLoader.html) no-repeat center center
 }
+
+.overlay-media{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	height:50px;
+	background-color:rgba(255,255,255,0.7);
+	}
+.overlay-media .meta-col{
+	height:50px;
+	padding-top:10px;
+	text-transform:uppercase;
+	}
+
+.fa{
+	display:inline-block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+	}
+.fa-lg{
+	font-size:1.33333333em;
+	line-height:.75em;
+	vertical-align:-15%
+	}	
+.overlay-media .meta-col:hover{
+	background:#d86838;
+	color:#FFF;
+	}

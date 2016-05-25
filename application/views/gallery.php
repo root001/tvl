@@ -6,6 +6,7 @@ defined('BASEPATH') OR exit('');
         <link href="<?=base_url()?>public/css/global.css" rel="stylesheet">
         <link href="<?=base_url()?>public/css/blogstyle.css" rel="stylesheet">
         <link href="<?=base_url()?>public/css/breadcrumb.css" rel="stylesheet">
+     
 
 <body>
     
@@ -84,8 +85,26 @@ defined('BASEPATH') OR exit('');
                                             <figure>
                                                 <img src="<?=base_url()?>public/gallery/gallery_1.jpg" alt="" title=""/>
                                             </figure>
-
+                                            
+                                            <div class="row overlay-media" style="margin:0;">
+                                                <div class="col-xs-4 meta-col">
+                                                  <i class="fa fa-calendar-o fa-lg"></i>
+                                                  <span class="date">29 June </span>
+                                                </div>
+                                                <div class="col-xs-4 meta-col">
+                                                  <i class="fa fa-comment-o fa-lg"></i>
+                                                  <span class="comments"> 0 </span>
+                                                </div>
+                                                <div class="col-xs-4 meta-col">
+                                                   <span class="flag-wrapper flag-like flag-like-32">
+                                                    <a href="blog-fullwidth.html?destination=blog-                            fullwidth&amp;token=b0b7232861a9e65a220052aa77a69ea6" title="Like this item" class="flag flag-action flag-link-toggle" rel="nofollow"><i class='fa fa-heart-o'></i></a><span class="flag-throbber">&nbsp;</span>
+                                                    <span class="count-like">    
+                                                        12</span>
+                                                    </span>         
+                                                </div>
+										      </div>
                                         </div>
+                                        
                                         <div class="blog-information" >
                                             <h3><a href="#">Heading here</a></h3>
                                             <div class="blog-admin-info underline-label">
@@ -96,17 +115,7 @@ defined('BASEPATH') OR exit('');
                                             <p class="about-us-paragraph">
                                                 The categories are xyz.
                                             </p>
-                                            <ul class="blog-comment">
-                                                <li>
-                                                    <a href="#" class="rightline"> <i class="fa fa-comments-o"></i> Comment </a>
-                                                </li>
-                                                <li class="heart-status">
-                                                    <a href="#" class="rightline"> <i class="fa fa-heart-o"></i> like </a>
-                                                </li>
-                                                <li class="share-box">
-                                                    <a href="#"> <i class="fa fa-share-alt"></i> Share </a>
-                                                </li>
-                                            </ul>
+                                            
                                         </div>
 
                                     </div>
