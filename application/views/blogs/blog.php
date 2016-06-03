@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('');
 
                                     <!-- breadcrumb -->
                                     <ol class="breadcrumb">
-                                        <li><a href="index-2.html" title="Home">Home</a></li>
+                                        <li><a href="<?=base_url()?>" title="Home">Home</a></li>
                                         <li class="active">blog</li>
                                     </ol><!-- /breadcrumb -->
 
@@ -114,7 +114,7 @@ defined('BASEPATH') OR exit('');
 										
 									  <section class="post-content">
 										<h1 class="post-title">
-										   <a href="content/blog-fullwidth/post-title-1.html">This is post Title - 1</a>
+										   <a href="<?=base_url()?>blog/post">This is post Title - 1</a>
 										</h1>
 										<div class="author">
 										  Posted by:<span class="author-name"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/orane/users/admin" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin</span></span></span> 
@@ -125,7 +125,7 @@ defined('BASEPATH') OR exit('');
 										<div class="summary">
 										  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Massa turpis ornare nec commodo non, auctor vel felis. Etiam pharetra, turpis nec sollicitudin cursus vestibulum varius hendrerit turpis quiseam cursus. Nonec bibendum vestibulum Kravida. Alentesque condimentum orci vel leo laoreet accumsan interdum eros vel sapien tincidunt dignissim consequat. Aenean lacinia bibendum nulla sed consectetur.</p></div></div></div>    </div>
 										<div class="readmore">
-										  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="content/blog-fullwidth/post-title-1.html">Read more</a>
+										  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="<?=base_url()?>blog/post">Read more</a>
 										</div>
 									  </section>
 									 </article>   
@@ -173,7 +173,7 @@ defined('BASEPATH') OR exit('');
 								
 							  <section class="post-content">
 								<h1 class="post-title">
-								   <a href="content/blog/happy-friends-forever.html">Happy Friends Forever</a>
+								   <a href="<?=base_url()?>blog/post">Happy Friends Forever</a>
 								</h1>
 								<div class="author">
 								  Posted by:<span class="author-name"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/orane/users/admin" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin</span></span></span> 
@@ -184,7 +184,7 @@ defined('BASEPATH') OR exit('');
 								<div class="summary">
 								  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Massa turpis ornare nec commodo non, auctor vel felis. Etiam pharetra, turpis nec sollicitudin cursus vestibulum varius hendrerit turpis quiseam cursus. Nonec bibendum vestibulum Kravida. Alentesque condimentum orci vel leo laoreet accumsan interdum eros vel sapien tincidunt dignissim consequat. Aenean lacinia bibendum nulla sed consectetur.</p></div></div></div>    </div>
 								<div class="readmore">
-								  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="content/blog/happy-friends-forever.html">Read more</a>
+								  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="<?=base_url()?>blog/post">Read more</a>
 								</div>
 							  </section>
 							 </article>   </div>
@@ -220,7 +220,7 @@ defined('BASEPATH') OR exit('');
 								
 							  <section class="post-content">
 								<h1 class="post-title">
-								   <a href="content/blog/custom-blog-post-video.html">Custom blog post with video</a>
+								   <a href="<?=base_url()?>blog/post">Custom blog post with video</a>
 								</h1>
 								<div class="author">
 								  Posted by:<span class="author-name"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/orane/users/admin" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin</span></span></span> 
@@ -231,7 +231,7 @@ defined('BASEPATH') OR exit('');
 								<div class="summary">
 								  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Massa turpis ornare nec commodo non, auctor vel felis. Etiam pharetra, turpis nec sollicitudin cursus vestibulum varius hendrerit turpis quiseam cursus. Nonec bibendum vestibulum Kravida. In vitae nunc tincidunt, euismod nibh sit amet, convallis arcu. Vestibulum feugiat auctor auctor. Phasellus lacinia auctor metus, in posuere justo egestas eget. Vivamus ornare tincidunt sagittis. Nunc pretium magna eu est condimentum malesuada. Nunc arcu nulla, fringilla in sodales sed, laoreet eget mi. Fusce ac suscipit turpis, sed porttitor mauris.</p></div></div></div>    </div>
 								<div class="readmore">
-								  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="content/blog/custom-blog-post-video.html">Read more</a>
+								  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="<?=base_url()?>blog/post">Read more</a>
 								</div>
 							  </section>
 							 </article>   </div>
@@ -267,7 +267,7 @@ defined('BASEPATH') OR exit('');
 								
 							  <section class="post-content">
 								<h1 class="post-title">
-								   <a href="content/blog/custom-blog-post-audio.html">Custom blog post with audio</a>
+								   <a href="<?=base_url()?>blog/post">Custom blog post with audio</a>
 								</h1>
 								<div class="author">
 								  Posted by:<span class="author-name"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/orane/users/admin" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin</span></span></span> 
@@ -278,7 +278,7 @@ defined('BASEPATH') OR exit('');
 								<div class="summary">
 								  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet erat quis nibh vehicula, condimentum placerat lectus iaculis. Nam ultricies nisi vel ligula pulvinar, quis dapibus velit iaculis. In hac habitasse platea dictumst. In vitae nunc tincidunt, euismod nibh sit amet, convallis arcu. Vestibulum feugiat auctor auctor. Phasellus lacinia auctor metus, in posuere justo egestas eget. Vivamus ornare tincidunt sagittis. Nunc pretium magna eu est condimentum malesuada. Nunc arcu nulla, fringilla in sodales sed, laoreet eget mi. Fusce ac suscipit turpis, sed porttitor mauris.</p></div></div></div>    </div>
 								<div class="readmore">
-								  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="content/blog/custom-blog-post-audio.html">Read more</a>
+								  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="<?=base_url()?>blog/post">Read more</a>
 								</div>
 							  </section>
 							 </article>   </div>
@@ -314,7 +314,7 @@ defined('BASEPATH') OR exit('');
 								
 							  <section class="post-content">
 								<h1 class="post-title">
-								   <a href="content/blog/hop-hop-says-dog.html">Hop Hop  says the Dog</a>
+								   <a href="<?=base_url()?>blog/post">Hop Hop  says the Dog</a>
 								</h1>
 								<div class="author">
 								  Posted by:<span class="author-name"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/orane/users/admin" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin</span></span></span> 
@@ -325,7 +325,7 @@ defined('BASEPATH') OR exit('');
 								<div class="summary">
 								  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet erat quis nibh vehicula, condimentum placerat lectus iaculis. Nam ultricies nisi vel ligula pulvinar, quis dapibus velit iaculis. In hac habitasse platea dictumst. In vitae nunc tincidunt, euismod nibh sit amet, convallis arcu. Vestibulum feugiat auctor auctor. Phasellus lacinia auctor metus, in posuere justo egestas eget. Vivamus ornare tincidunt sagittis. Nunc pretium magna eu est condimentum malesuada. Nunc arcu nulla, fringilla in sodales sed, laoreet eget mi. Fusce ac suscipit turpis, sed porttitor mauris.</p></div></div></div>    </div>
 								<div class="readmore">
-								  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="content/blog/hop-hop-says-dog.html">Read more</a>
+								  <a role="button" class="dexp-shortcodes-button btn btn-xs style02" href="<?=base_url()?>blog/post">Read more</a>
 								</div>
 							  </section>
 							 </article>   </div>
